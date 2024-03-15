@@ -31,6 +31,49 @@ TR: {[1,2,20],[1,3,20],[1,4,20],[1,5,20],[1,6,20],[1,7,20],[1,8,20],[1,9,20],[1,
 Test Paths: [1,2,20] [1,3,20] [1,4,20] [1,5,20] [1,6,20] [1,7,20] [1,8,20] [1,9,20] [1,10,20] [1,11,20] [1,12,20] [1,13,20] [1,14,20] [1,15,16,20] [1,15,17,20] [1,15,18,20] [1,15,19,20]
 
 
+Step 5:
+
+
+![EFG drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-RanaGohar/assets/94134735/2e8f2e8e-4e48-4e3d-82f9-d86f7d497ebf)
+
+
+
+# KISS application
+
+Method isNotificationTrivial()
+
+Step 1:
+
+![Untitled Diagram-Page-2 drawio (1)](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-RanaGohar/assets/94134735/8746ca3a-1ee5-4bbe-a786-ac10e84a1311)
+
+
+step 2: 
+
+TR: {1,2,3,4,5,6,7,8}
+
+
+Test Paths: 
+[1,2,4] [1,3,6,8] [1,3,5,7]
+
+Step 3:
+
+TR:
+{[1,3], [1,2], [2,4], [3,5], [3,6], [5,7], [6,8]}
+
+
+Test Paths: [1,2,4] [1,3,6,8] [1,3,5,7]
+
+
+Step 4: 
+
+TR: { [1,3,5], [1,3,6], [1,2,4], [3,5,7], [3,6,8]}
+
+Test Paths: [1,3,5,7]	[1,3,6,8] [1,2,4]
+
+
+Step 5:
+
+![Untitled Diagram-Page-3 drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-RanaGohar/assets/94134735/24ac27bb-073c-4676-a192-34003336c82d)
 
 
 
